@@ -1,0 +1,11 @@
+{
+    "name" : "Aesthetic Reader View",
+    "version" : "1.0",
+    "manifest_version" : 3,
+    "permissions" : ["activeTab", "scripting"],
+    "action" : {
+        "default_popup": "popup.html",
+        "default_title": "Open Reader View"
+    },
+    "host_permissions" : ["<all_urls>"]
+}
